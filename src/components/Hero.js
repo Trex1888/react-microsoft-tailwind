@@ -13,7 +13,7 @@ function Hero() {
         </p>
         <h1 className="font-bold text-2xl mb-2">Bundle and save up to $430</h1>
         <p className="text">
-          Complete your Surface Pro 7 with select Type Cover and free sleeve
+          Complete your Surface Pro 7 with select Type Cover and free sleeve.
         </p>
         <button className="bg-red-600 text-white py-2 px-4 mt-3 hover:bg-red-800 sm:inline-block">
           Shop Now

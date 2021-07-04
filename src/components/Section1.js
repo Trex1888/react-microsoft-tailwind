@@ -1,7 +1,7 @@
 import { useState } from "react";
 import data from "../data/section1";
 
-function ChooseYourMs() {
+function Section1() {
   const [cards, setCards] = useState(data);
 
   return (
@@ -22,4 +22,4 @@ function ChooseYourMs() {
   );
 }
 
-export default ChooseYourMs;
+export default Section1;

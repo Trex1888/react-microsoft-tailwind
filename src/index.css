@@ -22,16 +22,6 @@ li {
   width: 500px;
 }
 
-.showcase {
-  background: url("./images/microsoft/hero.jpg") no-repeat right/cover;
-  height: 400px;
-}
-
-.showcase .overlay {
-  height: 400px;
-  background-color: rgba(53, 41, 41, 0.5);
-}
-
 @media (min-width: 640px) {
   .hero {
     position: relative;
@@ -49,45 +39,18 @@ li {
     transform: translateY(-50%);
   }
 
-  .hero .overlay p.text {
-    width: 300px;
-  }
-
-  Gamepass */ .gamepass-hero {
+  .gamepass-hero {
     background: url("./images/homepage/game_pass_1600.png") no-repeat
       center/cover;
   }
+}
 
-  /* This holiday */
-  .this-holiday {
-    background: url("./images/homepage/this_holiday_1600.png") no-repeat
-      center/cover;
-  }
-
-  .office-showcase {
-    position: relative;
-    background: url("./images/office/hero.jpg") no-repeat center/cover;
-    height: 500px;
-  }
-
-  .office-showcase .showcase-img {
-    display: none;
-  }
-
-  .office-showcase .office-text {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 500px;
-  }
+.holiday {
+  background: url("./images/homepage/this_holiday_1600.png") no-repeat
+    center/cover;
 }
 
 @media (min-width: 768px) {
-  .header .menu-btn,
-  .header .cart {
-    display: none;
-  }
-
   .header .logo {
     display: flex;
   }
@@ -113,19 +76,15 @@ li {
   }
 }
 
-@media (min-width: 900px) {
-  .hero .overlay p.text {
-    width: 500px;
-  }
-
-  .office-showcase .office-text {
-    width: 800px;
-  }
-}
-
 @media (max-width: 768px) {
   .header .logo ul,
   .header .sign-in {
     display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero .overlay p.text {
+    width: 500px;
   }
 }
